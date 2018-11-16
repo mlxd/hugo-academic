@@ -5,9 +5,11 @@ name = "Dark"
 light = false
 
 # Primary
-primary = "hsl(339, 90%, 68%)"
+primary = "hsl(204, 100%, 49%)" #"hsl(159, 90%, 58%)" #"hsl(339, 90%, 68%)"
 primary_light = "hsl(339, 90%, 78%)"
 primary_dark = "hsl(339, 90%, 58%)"
+primary_comp1 = "hsl(339, 90%, 68%)"
+primary_comp2 = "hsl(159, 90%, 58%)"
 
 # Menu
 menu_primary = "rgb(20, 22, 34)"
