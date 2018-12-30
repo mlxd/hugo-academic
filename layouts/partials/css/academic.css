@@ -53,7 +53,7 @@ body {
 p {
   margin-top: 0;
   margin-bottom: 2rem;
-  text-indent: 2rem;
+  /*text-indent: 2rem; */
 }
 
 /* Lists */
@@ -114,6 +114,12 @@ a:hover
 
 a:focus {
   color: {{ .Get "link_focus" }};
+}
+
+
+.article-container
+img {
+  background-color: rgb(200, 200, 200);
 }
 
 img,
@@ -894,7 +900,7 @@ article .article-metadata {
   object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .media.stream-item img {
     max-width: 80px;
   }
@@ -1750,7 +1756,7 @@ div.alert a {
  **************************************************/
 
 .docs-article-container {
-  max-width: 760px;
+  max-width: 800px;
 }
 
 /* Documentation: article footer. */
@@ -1803,7 +1809,7 @@ div.alert a {
   border-bottom: 1px solid rgba(0, 0, 0, .1)
 }
 
-@media (min-width:768px) {
+@media (min-width:800px) {
   .docs-sidebar {
     border-right: 1px solid rgba(0, 0, 0, .1)
   }
@@ -1878,7 +1884,7 @@ div.alert a {
   margin-left: -15px;
 }
 
-@media (min-width:768px) {
+@media (min-width:800px) {
   @supports ((position:-webkit-sticky) or (position:sticky)) {
     .docs-links {
       max-height: calc(100vh - 5rem - 71px);
