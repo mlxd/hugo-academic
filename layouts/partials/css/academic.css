@@ -807,6 +807,10 @@ article .article-metadata {
   content: '\00B7';
 }
 
+.article-style{
+  width: 800px;
+}
+
 .article-style img,
 .article-style video {
   margin-left: auto;
