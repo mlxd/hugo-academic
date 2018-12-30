@@ -22,5 +22,7 @@ menu_text_active = "rgba(20, 22, 34, 1)"
 menu_title = "rgba(20, 22, 34, 1)"
 
 # Home sections
-home_section_odd = "hsla(231, 15%, 18%, 1)"
-home_section_even = "hsla(231, 15%, 17%, 1)"
+#home_section_odd = "hsla(231, 15%, 18%, 1)"
+#home_section_even = "hsla(231, 15%, 17%, 1)"
+home_section_even = "hsla(231, 15%, 19%, 1)"
+home_section_odd = "hsla(231, 15%, 15%, 1)"
