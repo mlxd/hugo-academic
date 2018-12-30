@@ -81,11 +81,11 @@ h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word; /* Ensures very long heading words do not overflow into content. */
 }
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.0rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 h3 {
   font-weight: 700;
@@ -404,7 +404,8 @@ a[data-fancybox] img {
 
 .home-section {
   background-color: {{ .Get "home_section_odd" }};
-  padding: 110px 0 110px 0;
+  #  padding: 110px 0 110px 0;
+  padding: 45px 0 45px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
@@ -1270,7 +1271,7 @@ article .article-metadata {
 
 footer {
   margin: 4rem 0 0;
-  padding: 2rem 0;
+  padding: 1rem 0;
   width: 100%;
 }
 
@@ -2021,8 +2022,9 @@ body.dark,
 
 .dark pre,
 .dark code {
-  color: rgb(139, 233, 253);
-  background-color: rgb(68, 71, 90);
+  color: rgb(89, 95, 97);
+  #color: rgb(139, 233, 253);
+  #background-color: rgb(68, 71, 90);
 }
 
 .dark pre {
