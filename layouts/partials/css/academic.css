@@ -562,6 +562,14 @@ a[data-fancybox] img {
   margin: 0px 0 10px 0;
 }
 
+#profile .portrait-title h4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #fff;
+  margin: -0.75rem 0 1rem 0;
+}
+
+
 ul.network-icon {
   display: inline-flex;
   flex-direction: row;
