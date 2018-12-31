@@ -592,6 +592,7 @@ ul.network-icon {
 }
 
 ul.ul-interests li {
+  list-style-type: cjk-ideographic;
   font-size: 0.9rem;
 }
 
