@@ -2044,7 +2044,7 @@ body.dark,
 .dark code {
   color: rgb(89, 95, 97);
   #color: rgb(139, 233, 253);
-  #background-color: rgb(68, 71, 90);
+  background-color: rgba(17, 17, 32, 1.0);
 }
 
 .dark pre {
