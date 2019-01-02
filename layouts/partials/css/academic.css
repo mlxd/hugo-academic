@@ -1299,8 +1299,8 @@ article .article-metadata {
  **************************************************/
 
 footer {
-  margin: 4rem 0 0;
-  padding: 1rem 0;
+  margin: 1rem 0 -0.5rem 0rem;
+  padding: 0rem 0;
   width: 100%;
 }
 
